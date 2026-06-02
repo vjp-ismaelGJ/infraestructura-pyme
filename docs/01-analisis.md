@@ -52,3 +52,10 @@ Una pequeña empresa necesita desplegar una infraestructura informática que per
 * Mantenibilidad.
 * Escalabilidad básica.
 * Facilidad de recuperación ante fallos.
+
+### Recomendaciones de seguridad para SSH
+
+- Deshabilitar el acceso remoto del usuario root.
+- Utilizar contraseñas robustas o autenticación mediante claves SSH.
+- Limitar el acceso únicamente a usuarios autorizados.
+- Mantener el servicio OpenSSH actualizado.

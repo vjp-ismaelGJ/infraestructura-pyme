@@ -35,7 +35,9 @@ bash
 sudo apt update
 sudo apt install netdata
 
+### Puerto utilizado
 
+Netdata utiliza por defecto el puerto 19999/TCP para el acceso a la interfaz web de monitorización
 ## Acceso a la interfaz
 
 Una vez instalado, Netdata estará disponible mediante navegador web:

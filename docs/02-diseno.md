@@ -42,6 +42,7 @@ mysqldump + rsync
 | Netdata       | Última estable     | Monitorización                |
 | UFW           | Incluido en Ubuntu | Firewall                      |
 | OpenSSH       | Última estable     | Administración remota         |
+| HAProxy       | 3.0                | Balanceador de carga y proxy inverso |
 
 ## Puertos utilizados
 
@@ -59,3 +60,7 @@ mysqldump + rsync
 * Restricción de puertos abiertos.
 * Separación lógica entre servicios.
 * Estrategia de copias de seguridad periódicas.
+
+## Balanceador de carga
+
+La infraestructura incorpora un balanceador de carga HAProxy situado delante del servidor Apache. Este componente permitirá distribuir las peticiones HTTP y HTTPS y mejorar la disponibilidad del servicio.

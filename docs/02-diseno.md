@@ -36,7 +36,7 @@ mysqldump + rsync
 | Componente    | Versión propuesta  | Función                       |
 | ------------- | ------------------ | ----------------------------- |
 | Ubuntu Server | 22.04 LTS          | Sistema operativo             |
-| Apache        | 2.4                | Servidor web                  |
+| Apache        | 2.4.60             | Servidor web                  |
 | PHP           | 8.2                | Ejecución de aplicaciones web |
 | MariaDB       | 10.11              | Base de datos                 |
 | Netdata       | Última estable     | Monitorización                |

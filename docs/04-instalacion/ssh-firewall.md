@@ -1,5 +1,6 @@
 # Configuración de SSH y firewall
 
+
 ## Objetivo
 
 Permitir la administración remota del servidor de forma segura y controlar el acceso a los servicios mediante UFW.
@@ -74,3 +75,10 @@ sudo ufw status
 - Permitir SSH solo desde la red interna.
 - Permitir tráfico HTTP y HTTPS.
 - Bloquear conexiones no autorizadas.
+  
+## Configuración básica de UFW
+
+- `ufw default deny incoming`
+- `ufw allow 22/tcp`
+- `ufw allow 80,443/tcp`
+- `ufw enable`

@@ -51,10 +51,23 @@ Actualizar el sistema:
 sudo apt update
 sudo apt upgrade
 ```
-
 ## Buenas prácticas
 
 * Mantener el sistema actualizado.
 * Supervisar periódicamente los servicios.
 * Realizar copias de seguridad frecuentes.
 * Mantener una documentación actualizada.
+
+## Mantenimiento del balanceador
+
+Tareas recomendadas:
+
+- Verificar el estado del servicio HAProxy.
+- Revisar los logs de funcionamiento.
+- Comprobar el reparto de carga entre servidores.
+- Mantener el software actualizado.
+
+Comprobar servicio:
+
+bash
+sudo systemctl status haproxy

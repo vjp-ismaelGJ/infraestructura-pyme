@@ -61,3 +61,25 @@ Si aparece la página por defecto de Apache, la instalación se ha realizado cor
 * Mantener el sistema actualizado.
 * Utilizar HTTPS en producción.
 * Restringir servicios innecesarios.
+
+## Configuración del balanceador HAProxy
+
+Se utilizará HAProxy como balanceador de carga situado delante del servidor Apache.
+
+Instalación:
+
+bash
+sudo apt install haproxy
+
+
+Comprobar servicio:
+
+bash
+sudo systemctl status haproxy
+
+
+Funciones principales:
+
+- Distribución del tráfico HTTP y HTTPS.
+- Mejora de la disponibilidad.
+- Posibilidad de ampliar la infraestructura con varios servidores web.

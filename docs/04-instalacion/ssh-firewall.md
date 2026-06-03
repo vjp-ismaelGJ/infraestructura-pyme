@@ -68,3 +68,9 @@ sudo ufw status
 | 22     | SSH      |
 | 80     | HTTP     |
 | 443    | HTTPS    |
+
+## Reglas UFW
+
+- Permitir SSH solo desde la red interna.
+- Permitir tráfico HTTP y HTTPS.
+- Bloquear conexiones no autorizadas.

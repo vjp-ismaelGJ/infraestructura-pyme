@@ -19,3 +19,12 @@
 * Intercambio de roles entre los miembros del equipo.
 * Redacción de nuevos documentos.
 * Continuación de la documentación técnica del proyecto.
+
+## Sesión 4
+
+* Creación del Issue para incorporar un balanceador HAProxy.
+* Actualización del diseño y planificación del proyecto.
+* Modificación de la documentación del servidor web y de operación.
+* Integración final mediante Pull Requests.
+* Revisión completa de la documentación.
+* Preparación de la versión final del proyecto.
